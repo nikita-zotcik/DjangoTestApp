@@ -1,0 +1,3 @@
+export const GET_OFFICE = "GET_OFFICE";
+export const GET_ALL_OFFICES = "GET_ALL_OFFICEs";
+export const GET_ALL_COMPANIES = "GET_ALL_COMPANIES";
