@@ -158,7 +158,7 @@ class CompanyOffices extends Component {
                             <Box m={3}>
                                 <Button variant="contained" color="primary" className={"AddButton"}
                                         onClick={e => this.setState({showAddForm: true})}>Add New
-                                    Company
+                                    Office
                                 </Button>
                             </Box>
                             {this.state.showAddForm &&
