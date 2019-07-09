@@ -138,8 +138,8 @@ class CompanyOffices extends Component {
                                             <TableRow key={index}>
                                                 <TableCell>{office.country}</TableCell>
                                                 <TableCell>{office.city}</TableCell>
+                                                <TableCell>{office.postal_code}</TableCell>
                                                 <TableCell>{office.street}</TableCell>
-                                                <TableCell>{office.postalCode}</TableCell>
                                                 <TableCell>{office.monthly_rent}</TableCell>
                                                 {!office.headquarter_of && (
                                                     <TableCell>
